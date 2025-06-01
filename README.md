@@ -4,7 +4,9 @@
 
 <img src=".\fig\1.png">
 
-输入示例：https://math-enthusiast.top/sitemap.xml或./sitemap.xml
+输入示例：https://math-enthusiast.top/sitemap.xml
+
+或./sitemap.xml
 
 输入完后会自动生成sitemap_config.txt文件，里面记录刚才输入的sitemap链接，如果输错了，直接在里面修改即可。
 
