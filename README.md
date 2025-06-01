@@ -1,3 +1,9 @@
+作者：卢鹏博
+
+欢迎访问我的个人博客：https://math-enthusiast.top
+
+---
+
 先安装必要的库.bat，再双击运行整合链接.bat。
 
 - 第一次使用时需要输入sitemap的链接
