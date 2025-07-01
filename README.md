@@ -1,41 +1,75 @@
-作者：卢鹏博
+<div align="center">
+<h1>Sitemap Parser Tool 🌐🔗</h1>
 
-欢迎访问我的个人博客：https://math-enthusiast.top
+<a href="README_zh.md">简体中文</a>  |  ENGLISH
+
+[![GitHub release](https://img.shields.io/github/release/AMTOPA/sitemap_row_show_urls.svg)](https://github.com/AMTOPA/sitemap_row_show_urls/releases)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://www.microsoft.com/windows)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/AMTOPA/sitemap_row_show_urls/graphs/commit-activity)
+[![Blog](https://img.shields.io/badge/📖_My_Blog-math--enthusiast.top-FF5733)](https://math-enthusiast.top/)
+</div>
+
+## ✨ Project Introduction
+
+A high-efficiency tool for extracting URLs from sitemap.xml, supporting multiple sitemaps and webpage titles extraction.
 
 ---
 
-现在已经支持同时提取多个url的sitemap和网页标题
+## 👨‍💻 Author Info
+**Pengbo Lu**  
+Visit my personal blog: [https://math-enthusiast.top](https://math-enthusiast.top)
 
 ---
 
-先安装必要的库.bat，再双击运行整合链接.bat。
+## 🚀 Key Features
+- ✅ Supports parsing multiple sitemap.xml simultaneously
+- 🌍 Works with both online and local sitemap files
+- 📝 Automatically saves configuration
+- 📊 Smart console output control (20 items threshold)
+- 📂 Automatically generates urls.txt file
 
-- 第一次使用时需要输入sitemap的链接
+---
 
-<img src=".\fig\1.png">
+## 🛠️ Usage Guide
 
-输入示例：https://math-enthusiast.top/sitemap.xml
+1. **Install Dependencies**  
+   Run `先安装必要的库.bat` (Install Required Libraries.bat)
 
-或./sitemap.xml
+2. **Run Program**  
+   Run `整合链接.bat` (Process Links.bat)
 
-输入完后会自动生成sitemap_config.txt文件，里面记录刚才输入的sitemap链接，如果输错了，直接在里面修改即可。
+3. **First Time Use**  
+   - Enter sitemap URL (supports web URL or local path)  
+   - Example inputs:  
+     `https://math-enthusiast.top/sitemap.xml`  
+     or `./sitemap.xml`  
+   ![Input Example](fig/1.png)
 
-之后再次运行整合链接.bat即可。
+4. **Configuration File**  
+   Automatically generates `sitemap_config.txt` which can be manually modified
 
-输出示例：
+---
 
-当链接较少时（20及以内）在控制台输出全部链接，同时在当前目录下输出urls.txt文件，里面也有链接数据。
+## 📊 Output Examples
 
-<img src=".\fig\2.png">
+### Few Links (≤20 items)
+- Console shows all links
+- Generates `urls.txt` file  
+![Few Links Example](fig/2.png)
 
-当链接大于20个时，会在控制台输出前20个链接，同时在当前目录下输出urls.txt文件，里面有全部链接数据。
+### Many Links (>20 items)
+- Console shows first 20 links
+- `urls.txt` contains all links  
+![Many Links Example](fig/3.png)
 
-<img src=".\fig\3.png">
+### Parsing Failure
+![Failure Example](fig/4.png)
 
-解析失败：
+### Local Sitemap Processing
+![Local Sitemap Example](fig/5.png)
 
-<img src=".\fig\4.png">
+---
 
-本地sitemap：
-
-<img src=".\fig\5.png">
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
